@@ -1,18 +1,20 @@
-## Getting Started
+## How to use this program
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Run the jar file using the terminal.
+run java -jar --enable-preview metricConverter.jar
 
-## Folder Structure
+The terminal ask you to select the conversion you want to do using the the numbers 1-4.
+Then you can input any integer to convert that to its metric form of your choice
+Use -1 to exit the program.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Example of output of the program:
+Please enter the number of your desired conversion:
+1: Miles to Kilometers
+2: Fahrenheit to Celsius
+3: Pounds to Stone
+4: Pounds to Kilograms
+1
+Enter the miles you want to convert to kilometers (-1 to exit): 34
+34.0 miles converts to 54.71756 kilometers
+Enter the miles you want to convert to kilometers (-1 to exit): -1
+Program exited sucessfully.

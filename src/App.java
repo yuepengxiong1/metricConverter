@@ -21,7 +21,7 @@ public class App {
         System.out.println("4: Pounds to Kilograms");
         userInput = scanner.nextInt();
 
-        //Accepts input from 1-4 only. Anything outside does not pass the while statement.
+        //Accepts input from 1-4 only. Anything outside does not pass the while loop.
         while(userInput < 1 || userInput > 4){
             System.out.println("Please enter a number between 1 to 4:");
             userInput = scanner.nextInt();
@@ -71,6 +71,7 @@ public class App {
 
                 System.out.println(numberToConvert + " pounds converts to " + (numberToConvert / 2.20462) + " kilograms");
             } else {
+
                 //not even needed but it looks better with the else at the end
                 System.out.println("There seems to be an error to the varible userInput. This program will exit");
                 numberToConvert = -1;
